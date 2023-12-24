@@ -1,0 +1,331 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter;
+}
+/* ***************************************
+********** header section start  ***********
+***************************************** */
+.navbar {
+    top: 0%;
+    z-index: 100;
+    position: sticky;
+    box-shadow: 0 0 10px rgb(215, 215, 199);
+    background-color: white;
+}
+.navbar .nav-item a:hover{
+    color: #027577;
+}
+/* ***************************************
+********** header section end  ***********
+***************************************** */
+
+
+
+/* ***************************************
+********** section 1 start here ***********
+***************************************** */
+.section1{
+    max-width: 100%;
+    min-height: 570px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(image/Rectangle.png);
+}
+.section1 h1{
+    font-size: 64px;
+    padding-top: 150px;
+}
+.section1 .SelectTag{
+    max-width: 945px;
+    min-height: 83px;
+    bottom: 20px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.section1 .SelectTag p{
+    font-size: 12px;
+    color: #9A9EA7;
+}
+.section1 .SelectTag .select{
+    font-size: 14px;
+    border: 0;
+    border-right: 1px solid rgb(222, 210, 210);
+}
+.section1 .SelectTag .selectItem{
+    margin-top: 30px;
+    color: #9A9EA7;
+    font-size: 14px;
+    border: 0;
+    border-right: 1px solid rgb(222, 210, 210);
+}
+.section1 .SelectTag button{
+    height: 40px;
+    margin-top: 25px !important;
+    background: #7963F0;
+}
+
+/* ***************************************
+********** section 1 start end ***********
+***************************************** */
+
+
+/* ***************************************
+********** (brand) section 2 start here ***
+***************************************** */
+.section2 img{
+    cursor: pointer;
+}
+/* ***************************************
+********** (brand) section 2 end here ***
+***************************************** */
+
+
+/* ***************************************
+*(tranding new car) section 3 start here ***
+***************************************** */
+.section3 {
+    margin-top: -20px;
+}
+.section3 p{
+    margin: 0%;
+    font-size: 12px;
+    color: #9A9EA7;
+}
+.section3 .btn1{
+    background-color: #fdeaff;
+}
+.section3 .btn2{
+    background-color: #ebebeb;
+}
+/* ***************************************
+*(tranding new car) section 3 end here ***
+***************************************** */
+
+
+
+
+/* ***************************************
+*(slider Find car by design) section 4 start here
+***************************************** */
+.section4{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.ArrowArea {
+    color: #909090;
+}
+.ArrowArea img {
+    background: #F5F6F7;
+    cursor: pointer;
+}
+.ProBTN {
+	font-size: 12px !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	color: #7963f0 !important;
+}
+.ProBTN:hover{
+    color: orangered !important;
+}
+.product {
+	min-width: 24%;
+	margin: 0 20px 50px 0px;
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+
+}
+/* ***************************************
+*(slider Find car by design) section 4 end here
+***************************************** */
+
+
+
+
+/* ***************************************
+*(Find car by model) section 5 start here ***
+***************************************** */
+.section4 .Find2 button{
+    border: 1px solid rgb(163, 163, 163);
+    font-size: 14px;
+    color: rgb(80, 80, 80);
+}
+.section4 .Find2 button:hover{
+    border: 1px solid orangered;
+}
+.arrowIconDiv{
+    padding-left: 150px;
+}
+.Find .arrowIcon{
+    width: 18px;
+    height: 15px;
+}
+.Find  p{
+    color: #9A9EA7;
+}
+.Find  .FindDetail{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.Find  .FindDetail .img1{
+    padding-top: 15px;
+}
+.Find  .FindDetail .img2{
+    padding-top: 5px;
+}
+.Find .otherMake p{
+    color: #9A9EA7;  
+}
+.Find .otherMake2{
+    margin-top: 87px;
+}
+.FindHead,
+.FindcarHeader{
+    display: flex;
+    justify-content: space-between;
+}
+/* ***************************************
+*(Find car by model) section 5 end here ***
+***************************************** */
+
+
+
+/* ***************************************
+**** (top footer) section 6 start here ***
+***************************************** */
+.section5{
+    margin-top: 50px;
+    min-height: 300px;
+    max-width: 100%;
+    background: #e7ebee;
+}
+.section5 p{
+    color: #85878b;
+}
+.section5 a{
+    text-decoration: none;
+}
+.section5 a:hover > p{
+    color: blue;
+    text-decoration: underline blue;
+}
+/* ***************************************
+**** (top footer) section 6 end here ***
+***************************************** */
+
+
+
+/* ***************************************
+*****  footer section start here ******
+******************************************/
+footer{
+    min-height: 60px;
+    color: #bdbdbd;
+    background-color: rgb(4, 0, 26);
+}
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.footerDiv > a{
+    text-decoration: none;
+}
+.footerDiv h6{
+    width: 120px;
+    color: #bdbdbd;
+}
+.footerDiv p{
+    font-family: Inter;
+    font-size: 14px;
+}
+.footerDiv .USD{
+    padding-left: 10px;
+}
+/* ***************************************
+*****  footer section end here ******
+******************************************/
+
+
+/* ***************************************
+*****  responsive section start here ****** -------- ****************************
+******************************************/
+@media all and (max-width:768px){
+    /* section 1 start */
+    .section1 h1{
+        font-size: 44px;?
+    }
+    .section1 .SelectTag{
+        position: relative;
+        top: 150px;
+    }
+    .section1 .SelectTag .select {
+        margin-bottom: 10px;
+        border: 1px solid rgb(214, 214, 214);
+    }
+    .section1 .SelectTag .selectItem {
+        margin-bottom: 10px;
+        border: 1px solid rgb(214, 214, 214);
+    }
+    /* section 1 end */
+
+    /* section 2 start */
+    .section2 .sec2{
+        position: relative;
+        top: 80px;
+    }
+    /* section 2 end */
+
+    /* slider section */
+    .FindHead{
+        display: block;
+    }
+    /* slider section */
+
+    /* section 4 start  */
+    #Model{
+        margin-top: -100px;
+    }
+    .section4 .Find1{
+        width: 100%;
+    }
+    /*  section 4 end  */
+    .footerDiv,
+    .FindcarHeader{
+        display: block;
+        justify-content:flex-start;
+    }
+}
+
+@media  (max-width:992px){
+    .navbar .nav-item {
+        padding-right: 1px;
+        font-size: 15px;
+    }
+      /* slider section */
+      .product {
+        min-width: 74%;
+        margin: 0 20px 50px 0px;
+        position: relative;
+        left: 0;
+        transition: 0.5s;
+    }
+    .product img{
+        width: 94%;
+    }
+    /* slider section */
+}
+/* ***************************************
+*****  responsive section end here ****** -------- ****************************
+******************************************/
